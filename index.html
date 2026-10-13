@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flaunt Technologies</title>
+<meta name="description" content="Flaunt Technologies L.L.C-FZ is a Dubai-based software company building social media applications for people who train. Maker of the FLAUNT app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+  /* Layout: one narrow column; a dark cobalt ground with the brand magenta used once, on the wordmark rule and the contact line. */
+  :root {
+    --ground: #0D1030;
+    --ground-top: #141C4A;
+    --ground-bottom: #0B0E24;
+    --card: #1A2250;
+    --raised: #232C63;
+    --ink: #EEF2FF;
+    --ink-2: #A6B0E6;
+    --muted: #6E77B0;
+    --hair: rgba(255,255,255,.12);
+    --magenta: #F5199B;
+    --magenta-top: #FF5CB4;
+    --cyan: #37B4F2;
+    --display: "Fredoka", "Nunito", "Avenir Next", "Segoe UI", sans-serif;
+    --body: "Nunito", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--ground) linear-gradient(180deg, var(--ground-top) 0%, var(--ground) 45%, var(--ground-bottom) 100%) fixed;
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding-block: 36px 48px; padding-inline: 20px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .wordmark { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+  .wordmark b { color: var(--magenta-top); font-weight: 700; }
+  .eyebrow { font-family: var(--body); font-weight: 800; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--cyan); }
+  .hero { margin-top: 64px; }
+  h1 { font-family: var(--display); font-weight: 700; font-size: clamp(34px, 6vw, 52px); line-height: 1.08; margin: 10px 0 18px; text-wrap: balance; letter-spacing: -.01em; }
+  .lede { font-size: 20px; color: var(--ink-2); max-width: 36em; margin: 0; }
+  .rule { height: 3px; width: 72px; border-radius: 2px; background: linear-gradient(90deg, var(--magenta-top), var(--magenta)); margin: 28px 0 0; }
+  section { margin-top: 56px; }
+  h2 { font-family: var(--display); font-weight: 700; font-size: 26px; margin: 8px 0 14px; letter-spacing: -.005em; }
+  p { margin: 0 0 14px; max-width: 38em; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-top: 18px; }
+  .tile { background: var(--card); border: 1px solid var(--hair); border-radius: 16px; padding: 18px 18px 16px; min-width: 0; }
+  .tile h3 { font-family: var(--display); font-weight: 600; font-size: 18px; margin: 0 0 6px; }
+  .tile p { font-size: 15px; color: var(--ink-2); margin: 0; }
+  .product { background: var(--raised); border: 1px solid var(--hair); border-radius: 20px; padding: 24px; display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: start; }
+  .product .mark { width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(160deg, var(--magenta-top), var(--magenta)); display: grid; place-items: center; font-family: var(--display); font-weight: 700; font-size: 30px; color: #fff; flex: none; }
+  .product h3 { font-family: var(--display); font-weight: 700; font-size: 22px; margin: 2px 0 6px; }
+  .product p { color: var(--ink-2); margin-bottom: 10px; }
+  .status { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ground-bottom); background: var(--cyan); border-radius: 999px; padding: 4px 10px; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 10px 22px; margin: 18px 0 0; font-size: 16px; }
+  dt { color: var(--muted); font-weight: 700; }
+  dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .contact { font-size: 20px; font-weight: 700; color: var(--magenta-top); letter-spacing: .01em; user-select: all; }
+  footer { margin-top: 64px; padding-top: 22px; border-top: 1px solid var(--hair); color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  a { color: var(--cyan); }
+  a:focus-visible, .wordmark:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; border-radius: 4px; }
+  @media (max-width: 520px) {
+    .product { grid-template-columns: 1fr; }
+    dl { grid-template-columns: 1fr; gap: 2px 0; }
+    dt { margin-top: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="wordmark" href="#">Flaunt <b>Technologies</b></a>
+    <span class="eyebrow">Dubai, UAE</span>
+  </header>
+
+  <div class="hero">
+    <span class="eyebrow">Software company</span>
+    <h1>We build social apps for people who train.</h1>
+    <p class="lede">Flaunt Technologies is a Dubai-based software company. We design, build and run social media applications, starting with FLAUNT, a camera app for the gym.</p>
+    <div class="rule"></div>
+  </div>
+
+  <section>
+    <span class="eyebrow">What we do</span>
+    <h2>Three licensed activities, one product.</h2>
+    <div class="cols">
+      <div class="tile">
+        <h3>Build</h3>
+        <p>Social media application development and management. We ship native iPhone software and the services behind it.</p>
+      </div>
+      <div class="tile">
+        <h3>Grow</h3>
+        <p>Marketing services via social media. Our apps are made for sharing, so distribution is part of the product.</p>
+      </div>
+      <div class="tile">
+        <h3>Hold</h3>
+        <p>Flaunt Technologies is the holding company for the FLAUNT brand, its software and its intellectual property.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Our product</span>
+    <h2>FLAUNT</h2>
+    <div class="product">
+      <div class="mark" aria-hidden="true">F</div>
+      <div>
+        <h3>Film your lift. Keep your music. Share in under two minutes.</h3>
+        <p>FLAUNT is an iPhone app for lifters. It records your set while your own music keeps playing, lands an AI soundtrack on the moment that matters, and sends the clip to Instagram, TikTok or anywhere else.</p>
+        <span class="status">In private testing</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Company</span>
+    <h2>Registered details</h2>
+    <dl>
+      <dt>Legal name</dt><dd>Flaunt Technologies L.L.C-FZ</dd>
+      <dt>Company type</dt><dd>Limited Liability Company, Free Zone</dd>
+      <dt>Registrar</dt><dd>Meydan Free Zone, Dubai, United Arab Emirates</dd>
+      <dt>Licence number</dt><dd>2654245.01</dd>
+      <dt>Formation number</dt><dd>2654245</dd>
+      <dt>Formed</dt><dd>25 September 2026</dd>
+      <dt>Registered address</dt><dd>Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E.</dd>
+      <dt>Manager</dt><dd>Matthew Pappas</dd>
+    </dl>
+  </section>
+
+  <section>
+    <span class="eyebrow">Contact</span>
+    <h2>Get in touch</h2>
+    <p>For partnerships, press, licensing and anything about the company:</p>
+    <p class="contact">biz@flaunt.ae</p>
+  </section>
+
+  <footer>
+    <span>© 2026 Flaunt Technologies L.L.C-FZ</span>
+    <span>Registered in the Meydan Free Zone, Dubai, UAE · Licence 2654245.01</span>
+  </footer>
+</div>
+</body>
+</html>
