@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /legal/
+Allow: /
+Sitemap: https://flaunt.ae/legal/
