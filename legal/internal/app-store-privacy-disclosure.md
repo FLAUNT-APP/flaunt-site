@@ -18,7 +18,7 @@ Each type is declared with three answers: linked to the user's identity, used fo
 | --- | --- | --- | --- | --- |
 | Contact Info | Email Address | Yes | No | App Functionality (optional recovery email) |
 | User Content | Photos or Videos | Yes | No | App Functionality (posts); Other (automated moderation screening) |
-| User Content | Other User Content | Yes | No | App Functionality (captions, comments, bio, Form Check frames and results) |
+| User Content | Other User Content | Yes | No | App Functionality (captions, comments, bio, Form Check frames, joint-angle measurements and results) |
 | Identifiers | User ID | Yes | No | App Functionality |
 | Identifiers | Device ID | No | No | App Functionality, Analytics (app-generated anonymous identifier, not a hardware or Apple identifier; resets on reinstall) |
 | Usage Data | Product Interaction | No | No | Analytics, App Functionality |
@@ -35,7 +35,7 @@ Name, phone number, physical address, precise or coarse location, contacts, phot
 
 ### Third-party partners that receive data
 
-Supabase (database and authentication), Cloudflare (media storage), Google Cloud Vision (moderation frames), Anthropic (Form Check frames), Loudly (track requests), Zoho (support email and recovery codes). None uses the data for its own purposes.
+Supabase (database and authentication), Cloudflare (media storage), Google Cloud Vision (moderation frames), Anthropic (Form Check frames and joint-angle measurements), Loudly (track requests), Zoho (support email and recovery codes). None uses the data for its own purposes.
 
 ## Age Rating questionnaire
 

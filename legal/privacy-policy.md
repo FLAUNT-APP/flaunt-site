@@ -1,6 +1,6 @@
 # FLAUNT Privacy Policy
 
-Effective 21 October 2026 · Version 1.0
+Effective 17 November 2026 · Version 1.1
 
 This policy explains what FLAUNT collects, why, who it goes to, how long we keep it, and what you can do about it. The data controller is Flaunt Technologies L.L.C-FZ, a limited liability company registered in the Meydan Free Zone, Dubai, United Arab Emirates, licence number 2654245.01, with its registered office at Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, United Arab Emirates. Contact: biz@flaunt.ae.
 
@@ -8,7 +8,7 @@ The short version: filming and exporting clips needs no account and sends us not
 
 ## 1. What we collect, and why
 
-**Without an account.** Filming, soundtracking and exporting a clip happens on your phone. The only data that leaves it is anonymous usage events (section 1.4) and, if you use Form Check, a few still frames (section 1.3).
+**Without an account.** Filming, soundtracking and exporting a clip happens on your phone. The only data that leaves it is anonymous usage events (section 1.4) and, if you use Form Check, a few still frames and joint-angle measurements (section 1.3).
 
 **1.1 Account data** (only if you join the community)
 
@@ -32,7 +32,7 @@ The short version: filming and exporting clips needs no account and sends us not
 
 **1.3 Form Check**
 
-When you run Form Check, your phone extracts a few still frames (never the video) from the clip and sends them, with the lift type, to our server and on to Anthropic (section 3). We keep the result and a cryptographic fingerprint of the clip so you are not charged a check for re-running the same clip. We do not keep the frames.
+When you run Form Check, your phone extracts a few still frames (never the video) from the clip and sends them, with the lift type and a few joint-angle measurements worked out on your phone (for example knee and hip angles at several moments in the rep), to our server and on to Anthropic (section 3). We keep the result and a cryptographic fingerprint of the clip so you are not charged a check for re-running the same clip. We do not keep the frames or the measurements.
 
 **1.4 Technical and usage data**
 
@@ -64,7 +64,7 @@ We use these processors to run FLAUNT. Each receives only what its job needs and
 | Supabase | Account, content, community, moderation and usage data | Database, authentication and server functions |
 | Cloudflare | Clips, poster images, moderation frames | Media storage and delivery |
 | Google Cloud (Vision) | Four still frames from each upload | Automated screening for prohibited content |
-| Anthropic | Form Check frames and lift type | Generating Form Check observations |
+| Anthropic | Form Check frames, joint-angle measurements and lift type | Generating Form Check observations |
 | Loudly | Track requests | Supplying the soundtrack catalogue |
 | Zoho | Reports, appeals, support emails, recovery codes | Email delivery and support inbox |
 

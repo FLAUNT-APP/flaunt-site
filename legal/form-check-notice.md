@@ -1,16 +1,16 @@
 # Form Check Notice
 
-Effective 21 October 2026 · Version 1.0
+Effective 17 November 2026 · Version 1.1
 
-This notice is shown in the app before the first Form Check, with a single button, "Got it". The acknowledgement is stored on the phone and carried to the account on join. The same text appears in the Privacy Policy, section 1.3. It replaces the in-app notice that exists today.
+This notice is shown in the app before the first Form Check, with a single button, "Got it". The acknowledgement is stored on the phone and carried to the account on join. The same text appears in the Privacy Policy, section 1.3.
 
 ## In-app text
 
 **Before you check your form**
 
-Form Check sends a few still frames from your clip, not the video, to an AI service, along with the lift you choose. It gives you observations: what went well and up to two things to try. It is not coaching or medical advice, and it never tells you how much to lift.
+Form Check sends a few still frames from your clip, not the video, and a few joint-angle measurements taken on your phone, to an AI service, along with the lift you choose. It gives you observations: what went well and up to two things to try. It is not coaching or medical advice, and it never tells you how much to lift.
 
-We keep only the result and a fingerprint of the clip, so re-checking the same clip is free. The frames are not kept.
+We keep only the result and a fingerprint of the clip, so re-checking the same clip is free. The frames and measurements are not kept.
 
 If something hurts, stop and talk to a professional.
 
