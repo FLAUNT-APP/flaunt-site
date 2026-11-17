@@ -1,6 +1,6 @@
 # FLAUNT Privacy Policy
 
-Effective 17 November 2026 · Version 1.1
+Effective 17 November 2026 · Version 1.2
 
 This policy explains what FLAUNT collects, why, who it goes to, how long we keep it, and what you can do about it. The data controller is Flaunt Technologies L.L.C-FZ, a limited liability company registered in the Meydan Free Zone, Dubai, United Arab Emirates, licence number 2654245.01, with its registered office at Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, United Arab Emirates. Contact: biz@flaunt.ae.
 
@@ -85,9 +85,9 @@ Our servers are in Seoul, South Korea (production) and Ohio, United States (deve
 | Activity entries | 90 days |
 | Form Check results and clip fingerprints | Until you delete the clip's post or your account |
 | Anonymous usage events | 24 months |
-| Content preserved under a legal obligation | As long as the law requires |
+| Content preserved and reported to the authorities for child safety | One year from the report, then deleted, unless the law or an authority requires us to keep it longer |
 
-Account deletion completes within 24 hours of your request.
+Account deletion completes within 24 hours of your request. Content that is under a child-safety hold when its account is deleted is not removed with the account; it is kept for the period in the table above, counted from the report or, where no report was made, from the deletion.
 
 ## 6. Your rights and choices
 
