@@ -1,6 +1,6 @@
 # FLAUNT Terms of Service
 
-Effective 21 October 2026 · Version 1.0
+Effective 18 November 2026 · Version 1.1
 
 These terms govern your use of the FLAUNT app and the FLAUNT community. FLAUNT is operated by Flaunt Technologies L.L.C-FZ ("FLAUNT", "we", "us"), a limited liability company registered in the Meydan Free Zone, Dubai, United Arab Emirates, licence number 2654245.01, with its registered office at Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, United Arab Emirates. By using FLAUNT you agree to these terms. If you do not agree, do not use FLAUNT.
 
@@ -22,9 +22,9 @@ You may delete your account at any time in Settings. Deletion removes your profi
 
 You own the clips, captions and comments you post. By posting to the FLAUNT community you grant FLAUNT a worldwide, non-exclusive, royalty-free licence to host, store, display, stream and reproduce that content within FLAUNT for as long as it remains posted, so that FLAUNT can show it to other users.
 
-**Featuring on FLAUNT's own channels.** FLAUNT may post your clip on FLAUNT's own social media accounts only if you ticked "Let FLAUNT feature this clip" when you posted it. That consent is given per clip, is never pre-ticked, is not offered to users under 18, and excludes paid advertising. If FLAUNT wants to use a clip in paid advertising, we will ask you separately.
+**Featuring on FLAUNT's own channels.** FLAUNT may post your clip on FLAUNT's own social media accounts only if featuring was on when you posted it. Featuring is off until you turn it on. You turn it on with "Let FLAUNT feature this clip" when you post; from then on it stays on for your later posts, the post screen reminds you each time, and you can turn it off at any time under "Feature my clips" in Settings. Your choice is recorded for each clip. Featuring is not offered to users under 18 and excludes paid advertising. If FLAUNT wants to use a clip in paid advertising, we will ask you separately.
 
-**Withdrawal.** You withdraw featuring consent by deleting the post. Within 7 days of deletion we remove the clip from FLAUNT's own channels. We cannot remove copies that other people have already shared elsewhere, and you accept that limitation.
+**Withdrawal.** Turning off "Feature my clips" stops your future posts being featured. You withdraw featuring consent for a clip you have already posted by deleting the post. Within 7 days of deletion we remove the clip from FLAUNT's own channels. We cannot remove copies that other people have already shared elsewhere, and you accept that limitation.
 
 **Music.** Soundtracks in FLAUNT are licensed to FLAUNT for use inside clips made with the app. You may post FLAUNT exports to other platforms. You may not extract, distribute or sell the music on its own.
 

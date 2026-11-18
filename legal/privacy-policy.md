@@ -1,6 +1,6 @@
 # FLAUNT Privacy Policy
 
-Effective 17 November 2026 · Version 1.2
+Effective 18 November 2026 · Version 1.3
 
 This policy explains what FLAUNT collects, why, who it goes to, how long we keep it, and what you can do about it. The data controller is Flaunt Technologies L.L.C-FZ, a limited liability company registered in the Meydan Free Zone, Dubai, United Arab Emirates, licence number 2654245.01, with its registered office at Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, United Arab Emirates. Contact: biz@flaunt.ae.
 
@@ -28,7 +28,7 @@ The short version: filming and exporting clips needs no account and sends us not
 | Hidden words | To hide comments you do not want to see; applied on your device and our server |
 | Activity (who liked, commented or followed you) | To show you in the Activity tab |
 | Blocks, mutes, reports you make | To enforce your choices and the Community Guidelines |
-| Per-post "feature" consent and, if you give it, a social handle for credit | To feature your clip on FLAUNT's own channels only where you agreed |
+| "Feature" consent, recorded for each post, and, if you give it, a social handle for credit | To feature your clip on FLAUNT's own channels only where you agreed. The "Feature my clips" setting itself is kept on your phone |
 
 **1.3 Form Check**
 
@@ -50,7 +50,7 @@ We do not collect your precise location, contacts, photos library, health data, 
 - To moderate content and enforce the Terms and Community Guidelines.
 - To restore your account if you added a recovery email.
 - To improve FLAUNT using anonymous usage data.
-- To feature your clip on FLAUNT's own channels, only with your per-post consent.
+- To feature your clip on FLAUNT's own channels, only where featuring was on when you posted it.
 - To comply with the law, including preserving and reporting content where required.
 
 We do not use your data for advertising, do not sell it, and do not share it for others' marketing.
@@ -93,7 +93,7 @@ Account deletion completes within 24 hours of your request. Content that is unde
 
 - **Delete your account** at any time in Settings. This removes your profile, posts, comments, likes, follows, saves and Form Check results.
 - **Delete any post or comment** at any time.
-- **Withdraw feature consent** by deleting the post; we remove the clip from FLAUNT's own channels within 7 days.
+- **Withdraw feature consent**: turn off "Feature my clips" in Settings to stop future posts being featured, and delete a post to withdraw it for that post; we remove the clip from FLAUNT's own channels within 7 days.
 - **Export your data**: email biz@flaunt.ae and we will send your posts, comments and Form Check results as a JSON file within 30 days.
 - **Hide like counts, mute, block, and hidden words** are all in Settings.
 
