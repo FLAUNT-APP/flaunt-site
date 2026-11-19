@@ -115,6 +115,9 @@ def page(title: str, meta: str, body: str, path: str, desc: str) -> str:
 <title>{html.escape(title)} · FLAUNT</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{SITE}/legal/{path}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>{CSS}</style>
 </head>
 <body>
