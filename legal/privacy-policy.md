@@ -1,6 +1,6 @@
 # FLAUNT Privacy Policy
 
-Effective 18 November 2026 · Version 1.3
+Effective 20 November 2026 · Version 1.3
 
 This policy explains what FLAUNT collects, why, who it goes to, how long we keep it, and what you can do about it. The data controller is Flaunt Technologies L.L.C-FZ, a limited liability company registered in the Meydan Free Zone, Dubai, United Arab Emirates, licence number 2654245.01, with its registered office at Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, United Arab Emirates. Contact: biz@flaunt.ae.
 
@@ -28,11 +28,11 @@ The short version: filming and exporting clips needs no account and sends us not
 | Hidden words | To hide comments you do not want to see; applied on your device and our server |
 | Activity (who liked, commented or followed you) | To show you in the Activity tab |
 | Blocks, mutes, reports you make | To enforce your choices and the Community Guidelines |
-| "Feature" consent, recorded for each post, and, if you give it, a social handle for credit | To feature your clip on FLAUNT's own channels only where you agreed. The "Feature my clips" setting itself is kept on your phone |
+| Your "Feature my clips" setting and, if you give it, a social handle for credit | To feature your clips on FLAUNT's own channels only while the setting is on |
 
 **1.3 Form Check**
 
-When you run Form Check, your phone extracts a few still frames (never the video) from the clip and sends them, with the lift type and a few joint-angle measurements worked out on your phone (for example knee and hip angles at several moments in the rep), to our server and on to Anthropic (section 3). We keep the result and a cryptographic fingerprint of the clip so you are not charged a check for re-running the same clip. We do not keep the frames or the measurements.
+When you run Form Check, your phone reads your body position from the clip and extracts a few still frames (never the video). It sends those frames, the joint angles it measured, and the lift type to our server and on to Anthropic (section 3). We keep the result and a cryptographic fingerprint of the clip so you are not charged a check for re-running the same clip. We do not keep the frames or the angles. Replay, which draws Form Check points over your own video, runs entirely on your phone and sends nothing.
 
 **1.4 Technical and usage data**
 
@@ -42,6 +42,10 @@ When you run Form Check, your phone extracts a few still frames (never the video
 | Usage events (which screens and features you use, timings, counts) | To understand what works and fix what does not. Events never contain free text, search queries or usernames |
 | Moderation data (automated screening results, reports, actions, audit records) | To keep the community safe and to explain our decisions |
 
+**1.5 Beta testers on WhatsApp**
+
+If you join the FLAUNT beta by messaging our WhatsApp number, we collect your WhatsApp phone number and profile name, your answer to the joining question (whether your iPhone runs iOS 17 or later), the messages you send us, and any screenshots or screen recordings you attach to feedback. We use them to send you the beta link, to read and reply to your feedback, and to improve FLAUNT. We never message you unless you messaged us first, and we stop if you send STOP. If you tell us you are under 16, we delete everything about you straight away. Voice notes are not stored.
+
 We do not collect your precise location, contacts, photos library, health data, or anything from other apps. The app asks for camera and microphone permission only to film, and for add-only Photos permission only to save your clips; it cannot read your photo library.
 
 ## 2. How we use it
@@ -50,7 +54,7 @@ We do not collect your precise location, contacts, photos library, health data, 
 - To moderate content and enforce the Terms and Community Guidelines.
 - To restore your account if you added a recovery email.
 - To improve FLAUNT using anonymous usage data.
-- To feature your clip on FLAUNT's own channels, only where featuring was on when you posted it.
+- To feature your clips on FLAUNT's own channels, only while your "Feature my clips" setting is on.
 - To comply with the law, including preserving and reporting content where required.
 
 We do not use your data for advertising, do not sell it, and do not share it for others' marketing.
@@ -64,9 +68,10 @@ We use these processors to run FLAUNT. Each receives only what its job needs and
 | Supabase | Account, content, community, moderation and usage data | Database, authentication and server functions |
 | Cloudflare | Clips, poster images, moderation frames | Media storage and delivery |
 | Google Cloud (Vision) | Four still frames from each upload | Automated screening for prohibited content |
-| Anthropic | Form Check frames, joint-angle measurements and lift type | Generating Form Check observations |
+| Anthropic | Form Check frames, joint angles and lift type | Generating Form Check observations |
 | Loudly | Track requests | Supplying the soundtrack catalogue |
 | Zoho | Reports, appeals, support emails, recovery codes | Email delivery and support inbox |
+| Meta (WhatsApp) | Beta testers' messages, phone numbers and attachments | Carrying beta onboarding and feedback messages |
 
 We disclose data to authorities where the law requires it, including the preservation and reporting of content involving the exploitation of minors.
 
@@ -80,20 +85,22 @@ Our servers are in Seoul, South Korea (production) and Ohio, United States (deve
 | --- | --- |
 | Account and content data | Until you delete the post or the account |
 | Content removed by moderation | 30 days for appeals, then purged |
+| Content hidden and locked after a report involving someone under 16 | 1 year from the report, then deleted, unless the law requires longer |
 | Moderation events, actions and audit records | 12 months |
 | Reports against an account that has been deleted | 30 days |
 | Activity entries | 90 days |
 | Form Check results and clip fingerprints | Until you delete the clip's post or your account |
 | Anonymous usage events | 24 months |
-| Content preserved and reported to the authorities for child safety | One year from the report, then deleted, unless the law or an authority requires us to keep it longer |
+| Beta testers' WhatsApp numbers, answers, messages and feedback | 90 days after the beta ends, then deleted |
+| Content preserved under a legal obligation | As long as the law requires |
 
-Account deletion completes within 24 hours of your request. Content that is under a child-safety hold when its account is deleted is not removed with the account; it is kept for the period in the table above, counted from the report or, where no report was made, from the deletion.
+Account deletion completes within 24 hours of your request.
 
 ## 6. Your rights and choices
 
 - **Delete your account** at any time in Settings. This removes your profile, posts, comments, likes, follows, saves and Form Check results.
 - **Delete any post or comment** at any time.
-- **Withdraw feature consent**: turn off "Feature my clips" in Settings to stop future posts being featured, and delete a post to withdraw it for that post; we remove the clip from FLAUNT's own channels within 7 days.
+- **Withdraw feature consent** by switching "Feature my clips" off, or for one clip by deleting its post; we remove the affected clips from FLAUNT's own channels within 7 days.
 - **Export your data**: email biz@flaunt.ae and we will send your posts, comments and Form Check results as a JSON file within 30 days.
 - **Hide like counts, mute, block, and hidden words** are all in Settings.
 
